@@ -178,7 +178,7 @@ graph LR
   $$
 
 - 関節が伸びていれば関節間の総和と最も伸びている指を3倍した値の値は1に近づき、曲がっていれば0に近づくため判断基準
-  ```math
+  $$
   dist_{total} = sum \left(
   \begin{array}{ll}
   第三関節と第二関節の距離 \\
@@ -188,7 +188,7 @@ graph LR
   \right) \\
   
   \frac{dist_{total}}{3 \times dist_{max}}
-  ```
+  $$
   
 - 3点間の角度
 
